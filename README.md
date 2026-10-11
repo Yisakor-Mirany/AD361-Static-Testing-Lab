@@ -120,8 +120,6 @@ Total: $52.24
 | `screenshots/04-syntax-only-eslint.png` | ESLint second pass: 4 additional errors |
 | `screenshots/05-syntax-only-tsc.png` | TypeScript second pass: 7 type errors |
 | `screenshots/06-final-jest-passing.png` | Jest on the fixed code: 33 / 33 pass, 100% coverage |
-| `screenshots/07-final-eslint-clean.png` | ESLint on the fixed code: 0 problems |
-
 ## AI transparency statement
 
 I used **Claude** (Anthropic), an AI assistant, to help with this lab. Claude:
