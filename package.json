@@ -1,0 +1,39 @@
+{
+  "name": "ad361-static-testing-lab",
+  "version": "1.0.0",
+  "description": "AD361 Introduction to Testing and Static Testing lab: Jest unit tests, manual code review, and ESLint static analysis of a grocery receipt program.",
+  "main": "src/fixed_receipt.ts",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/receipt.ts",
+    "lint:fixed": "eslint src/fixed_receipt.ts src/receipt.test.ts",
+    "typecheck": "tsc --noEmit --strict --esModuleInterop --skipLibCheck --types jest,node src/fixed_receipt.ts src/receipt.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yisakor-Mirany/AD361-Static-Testing-Lab.git"
+  },
+  "keywords": [
+    "testing",
+    "jest",
+    "eslint",
+    "typescript",
+    "static-testing"
+  ],
+  "author": "Yisakor Mirany",
+  "bugs": {
+    "url": "https://github.com/Yisakor-Mirany/AD361-Static-Testing-Lab/issues"
+  },
+  "homepage": "https://github.com/Yisakor-Mirany/AD361-Static-Testing-Lab#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.20.5",
+    "eslint": "^9.39.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.14",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.1"
+  },
+  "private": true
+}
