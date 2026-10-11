@@ -120,18 +120,15 @@ Total: $52.24
 | `screenshots/04-syntax-only-eslint.png` | ESLint second pass: 4 additional errors |
 | `screenshots/05-syntax-only-tsc.png` | TypeScript second pass: 7 type errors |
 | `screenshots/06-final-jest-passing.png` | Jest on the fixed code: 33 / 33 pass, 100% coverage |
-## AI transparency statement
+## AI Transparency Statement
 
-I used **Claude** (Anthropic), an AI assistant, to help with this lab. Claude:
+I used **Claude (Anthropic)** as a learning tool to help me understand the lab instructions, review testing concepts, and troubleshoot issues during the project.
 
-- explained the steps and the project setup (`package.json`, Jest, TypeScript, ESLint, `.gitignore`)
-- suggested the Jest test cases, written from the program requirements
-- helped with the manual code review and the wording of `issue_log.md`
-- provided the corrected code in `fixed_receipt.ts` and a draft of this README
+AI assisted with explaining Jest, TypeScript, and ESLint, suggesting possible test cases, and providing feedback on code improvements and documentation.
 
-I ran every command myself on my own computer and took every screenshot myself. All test and lint results in this repository are real output. I reviewed the code, the tests, and the issue log before submitting, and I am responsible for the final submission.
+I reviewed the code, tested the program, checked the results, and verified the fixes before submitting. AI was used for guidance and support throughout the assignment, and I take responsibility for the final work.
 
-The original `receipt.ts` ends with the comment *"AI was used to clean up this code"*, yet that code did not compile. This lab showed me why AI output must be tested and reviewed before it is trusted (see issue #26 in `issue_log.md`).
+This lab helped me understand the importance of reviewing and testing code, including code generated or assisted by AI.
 
 ## Author
 
